@@ -8,39 +8,39 @@
 
 ```pip install pypinyin```
 
-文件夹功能介绍:
+**文件夹功能介绍:**
 
-"src/:"源代码+语料库+拼音汉字表,包含：
+**"src/:"源代码+语料库+拼音汉字表,包含：**
 
-"parameters.py":存放参数。
+​	"parameters.py":存放参数。
 
-"read.py":读取拼音文字表(.txt文件)
+​	"read.py":读取拼音文字表(.txt文件)
 
-"pre_training.py":读取语料库数据。
+​	"pre_training.py":读取语料库数据。
 
-"translation.py":主文件，实现拼音输入法
+​	"translation.py":主文件，实现拼音输入法
 
-语料库文件请放入src文件夹内，具体路径:
+​	语料库文件请放入src文件夹内，具体路径:"src/语料库/sina_news_gbk/xxx.txt"
 
-"src/语料库/sina_news_gbk/xxx.txt"
+​	语料库文件夹包含sina_news_gbk文件夹和SMP2020文件夹
 
-语料库文件夹包含sina_news_gbk文件夹和SMP2020文件夹
-
-拼音文字表请放入src文件夹内，具体路径:
-
-"src/拼音文字表.txt"
+​	拼音文字表请放入src文件夹内，具体路径:"src/拼音文字表.txt"
 
 
 
-"data/:"测试数据+输出数据+中间文件,包含:
+**"data/:"测试数据+输出数据+中间文件,包含:**
 
-"std_input.txt":测试输入文件
+​	"std_input.txt":测试输入文件
 
-"std_output.txt":标准输出答案
+​	"std_output.txt":标准输出答案
 
-"output.txt":程序输出
+​	"output.txt":程序输出
 
 以及各种中间json文件
+
+
+
+
 
 运行方法: 请先进入src文件夹内，然后在命令行输入`python translation.py ../src/std_input.txt ../src/output.txt`(若使用默认测试文件可以直接输入`python translation.py`)。
 
