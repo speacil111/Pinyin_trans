@@ -216,12 +216,14 @@ if __name__ == "__main__":
     load(n,way)
     print("加载完成")
     if len(sys.argv)>1:
-        print("开始训练")
+        print("开始转换")
         py2ch(n,sys.argv[1],sys.argv[2])
         sentences_acc(sys.argv[2])
         words_acc(sys.argv[2])
+        print("转换完成")
     else:
-        print("开始训练")
+        print("开始转换")
         py2ch(n)
         sentences_acc()
         words_acc()
+        print("转换完成")

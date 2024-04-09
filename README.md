@@ -71,17 +71,15 @@ zhong guo gong chan dang yuan de chu xin he shi ming shi wei zhong guo ren min m
 
 青山绿水就是金山银山
 
-中国贫困地区实现网络服务全覆盖
-
 中国共产党员的初心和使命是为中国人民谋幸福为中华民族谋复兴
 ```
 
 
 
-注：训练好的json文件以及语料库，拼音汉字表文件已全部打包上传清华云盘，github中不含有这些文件，更多详情请见实验报告。
+注：训练好的json文件已全部打包上传清华云盘，github中不含有这些文件，更多详情请见实验报告。
 
 github地址：https://github.com/speacil111/Pinyin_trans
 
-所有的中间文件已上传清华云盘：https://cloud.tsinghua.edu.cn/library/706eeefe-de48-40b4-b770-52a69de5aee6/%E4%BA%BA%E6%99%BA%E5%AF%BC/processed_data
+所有的中间文件已上传清华云盘：https://cloud.tsinghua.edu.cn/d/c36fe9010c6645f5b930/
 
  
